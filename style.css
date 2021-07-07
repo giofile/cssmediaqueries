@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(118, 189, 179);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px dodgerblue dotted;
+    margin: 5px black solid;
+    padding: 10px 20px;
+
+}
+
+.black-border{
+    border: 20px solid rgb(197, 211, 11);
+    margin: 10px;
+    padding: 20px 30px;
+}
+
+#abc{
+    background-color: rgb(101, 76, 216);
+    border: fuchsia solid 5px;
+    margin-right: 200px;
+    padding: 20px 5px;
+}
+
+.abd{
+    color: rgb(8, 60, 231);
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.abt {
+    border: 5px dashed grey;
+    margin: 10px;
+    padding: 20px 20px;
+}
+.abg{    
+    margin: 0;
+    padding: 0;
+
+}
+.abg li {float: left;
+    background: black;
+}
+.abg li a{ 
+    display: block;
+     padding: 8px;
+    }
+.abg li a:hover { background: grey;}
