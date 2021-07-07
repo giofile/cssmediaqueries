@@ -8,10 +8,13 @@ body{
 
 }
 
-.black-border{
+
+.abk{
     border: 20px solid rgb(197, 211, 11);
     margin: 10px;
     padding: 20px 30px;
+    color: rgb(8, 60, 231);
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
 
 #abc{
@@ -21,25 +24,38 @@ body{
     padding: 20px 5px;
 }
 
-.abd{
-    color: rgb(8, 60, 231);
-    font-family: 'Zen Tokyo Zoo', cursive;
-}
 .abt {
     border: 5px dashed grey;
     margin: 10px;
     padding: 20px 20px;
 }
-.abg{    
-    margin: 0;
+.abg li{    
+    margin: 10px;
     padding: 0;
+    display: inline;
 
 }
-.abg li {float: left;
-    background: black;
-}
-.abg li a{ 
-    display: block;
-     padding: 8px;
+
+/* aanpassing voor mobiel */
+@media screen and (min-width: 800px)  {
+
+  h1, p, h3{
+      color: yellow; 
+      font-size: 70px; 
+      line-height: 1.5;  
     }
-.abg li a:hover { background: grey;}
+}
+
+/* aanpassing voor desktop */
+
+@media screen and (max-width: 900px){
+    h1, .abg {
+     color: rgb(107, 216, 18);
+     
+    } 
+    body{ 
+        background-color: slateblue;
+    }
+}
+
+
